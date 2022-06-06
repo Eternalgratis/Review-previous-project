@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+    <h1 id="title">
+        A Survey Form
+    </h1>
+    <p id="description">
+      Welcome! We hope you have a seamless time here
+    </p>
+    </header>
+  <form id="survey-form">
+      <label id="name-label">First name: </label><br>
+      <input type="text" placeholder="Enter your name" id="name" required></input>
+      <input type="submit" name="name"></input><br>
+      <label id="email-label">Email</label><br>
+      <input type="email" placeholder="Enter a valid email" id="email" name="name" required></input>
+      <input type="submit" name="email"></input><br>
+      <label id="number-label">Phonenumber:</label><br>
+      <input type="number" placeholder="Enter your phone number" min="0" max="50" id="number" name="number" required></input>
+      <input type="submit" name="number"></input><br>
+    <select id="dropdown">select
+      <option></option>
+      <option></option>
+    </select>
+      <input type="radio" value="HTML" name="Buttons">Button 1</input>
+      <input type="radio" value="CSS" name="Buttons">Button 2</input>
+
+      <input type="checkbox" value="one">
+      <input type="checkbox" value="two">
+      <input type="checkbox" value="three">
+      <textarea rows = 5 cols = 10 > Enter msg </textarea>
+      <button id="submit">Submit</button>
+  </form>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
